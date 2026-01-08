@@ -17,3 +17,5 @@ while prompt != "fim":
     response = chat.send_message(prompt)
     print(response.text)
     prompt = input("Esperando prompt: ")
+
+print("teste")
